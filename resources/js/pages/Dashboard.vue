@@ -34,11 +34,9 @@ const user = page.props.auth.user ;
                     <div class="flex items-center space-x-4">
                         <Form v-bind="ButtonController.increment.form()" method="post">
                             <Button type="submit">Click</Button>
+                            <span class="text-lg font-medium">{{ user.button_clicked}} click</span>
                         </Form>
-                
-                    <span class="text-lg font-medium">{{ user.button_clicked}} click</span>
                     </div>
-                    
                 </div>
             </div>
         </div>

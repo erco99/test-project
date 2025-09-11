@@ -13,7 +13,6 @@ Route::get('dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-
 Route::post('button-click', [ButtonController::class, 'increment'])
     ->middleware('auth')
     ->name('button.click');
