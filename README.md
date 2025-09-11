@@ -53,9 +53,14 @@ git clone https://github.com/erco99/test-project.git
 cd test-project
 ```
 
-### 3. Creazione file `.env`
+### 3. Installazione dipendenze PHP
 ```
 composer install
+```
+
+### 3. Creazione file `.env`
+```
+cp .env.example .env
 ```
 
 ### 4. Generazione chiavi
