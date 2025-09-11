@@ -78,7 +78,8 @@ touch database/database.sqlite
 php artisan migrate
 ```
 
-### 7. Avvio del server locale
+### 7. Installazione dipendenze Node e avvio del server locale
 ```
+npm install && npm run build
 composer run dev
 ```
