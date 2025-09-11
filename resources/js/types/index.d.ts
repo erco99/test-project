@@ -32,6 +32,7 @@ export interface User {
     email_verified_at: string | null;
     created_at: string;
     updated_at: string;
+    button_clicked: BigInteger;
 }
 
 export type BreadcrumbItemType = BreadcrumbItem;
