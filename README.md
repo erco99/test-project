@@ -50,6 +50,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### 2. Clonazione repository
 ```
 git clone https://github.com/erco99/test-project.git
+cd test-project
 ```
 
 ### 3. Creazione file `.env`
